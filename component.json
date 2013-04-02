@@ -1,6 +1,6 @@
 {
-  "name": "joystick",
-  "repo": "pazguille/joystick",
+  "name": "gamepads",
+  "repo": "pazguille/gamepads",
   "description": "Gamepad API wrapper for Web Browsers.",
   "version": "0.0.1",
   "keywords": [],
