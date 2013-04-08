@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Gamepads Component</title>
+	</head>
+	<body>
+		<script src="index.js"></script>
+        <script>
+            var gamepads = new Gamepads(),
+                player1 = gamepads.ports[0];
+
+            player1.on('down', function (button) { console.log('player1: ' + button); });
+        </script>
+	</body>
+</html>
